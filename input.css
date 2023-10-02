@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Muli';
+}
+
+.ovo {
+    font-family: 'Ovo';
+}
+
+.muli {
+    font-family: 'Muli';
+}
+
+.hidden-imp {
+    display: none !important;
+}
+
+.buy {
+    background-color: rgba(170,110,100);
+}
+
+.p-links {
+    background-color: rgba(229,219,210);
+}
+
+.dwn, .testimonial, .connect, .about {
+    background-color: rgba(243,235,207);
+}
+
+.b-t, .l-y {
+    background-color: rgba(249,245,233,0.8);
+}
+
+.btn {
+    background-color: rgba(216,194,86);
+}
+
+.back, .exc {
+    background-color: rgba(132,186,189);
+}
+
+.lime-border {
+    border: 1px solid rgba(216,194,86);
+}
+
+.success {
+    background-color: rgba(203,223,224);
+}
+
+.bl {
+    background-color: rgba(77,77,77);
+}
+
+
+.op-0 {
+    opacity: 0;
+}
+
+.btn-t, .l-blue {
+    background-color: rgba(232,240,240,1);
+}
+
+.footer, .y-sign {
+    background-color: rgba(249,245,233);
+}
+
+
+@media (max-width: 767px) {
+    .m-menu {
+        background-color: rgba(232,240,240,1);
+    }
+}
